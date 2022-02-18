@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BerserkeЯ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+    <div class="container">
+        <!-- NavMenu -->
+        <div class="navigation">
+            <nav><ul>
+                
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><img src="img/logo.ico" class="logomini"></span>
+                        <span class="title"><img src="img/letras-logo.ico" class="letraslogo"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="id-card-outline"></ion-icon></span>
+                        <span class="title">Usuario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="code-slash-outline"></ion-icon></span>
+                        <span class="title">Proyectos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="title">Configuración</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <span class="title">Contacto</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                        <span class="title">Ayuda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Cerrar sesión</span>
+                    </a>
+                </li>
+
+
+            </ul></nav>
+        </div>
+        
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+            <!-- Search -->
+            <div class="search">
+                <label>
+                    <input type="text" placeholder="Buscar...">
+                    <ion-icon name="search-outline"></ion-icon>
+                </label>
+            </div>
+            <!-- UserImg -->
+            <div class="user">
+                <img src="user.jpg">
+            </div>
+        </div>
+        <!-- Web Content -->
+        <div class="webcontent">
+            <!-- First row images -->
+            <div class="first-row">
+                <div class="container-card">
+                    <figure>
+                        <img src="img/monogram-1.png" class="img">
+                        <div class="capa">
+                            <h3>Autor</h3>
+                            <p>Título de la imagen</p>
+                        </div> 
+                    </figure>
+                </div>
+                <div class="container-card">
+                    <figure>
+                        <img src="img/monogram-2.png" class="img">
+                        <div class="capa">
+                            <h3>Autor</h3>
+                            <p>Título de la imagen</p>
+                        </div> 
+                    </figure>
+                    
+                </div>
+                <div class="container-card">
+                    <figure>
+                        <img src="img/monogram-3.png" class="img">
+                        <div class="capa">
+                            <h3>Autor</h3>
+                            <p>Título de la imagen</p>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="second-row">    
+                <div class="container-card">
+                    <figure>
+                        <img src="img/monogram-4.png" class="img">
+                        <div class="capa">
+                            <h3>Autor</h3>
+                            <p>Título de la imagen</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="container-card">
+                    <figure>
+                        <img src="img/monogram-5.png" class="img">
+                        <div class="capa">
+                            <h3>Autor</h3>
+                            <p>Título de la imagen</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="container-card">
+                    <figure>
+                        <img src="img/monogram-6.png" class="img">
+                        <div class="capa">
+                            <h3>Autor</h3>
+                            <p>Título de la imagen</p>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        // MenuToggle
+        let toggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+
+        toggle.onclick = function(){
+            navigation.classList.toggle('active')
+            main.classList.toggle('active')
+        }
+
+
+        // add hovered class in selected list item
+        let list = document.querySelectorAll('.navigation li');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('hovered'));
+            this.classList.add('hovered');
+        }
+        list.forEach((item) =>
+        item.addEventListener('mouseover', activeLink));
+    </script>
+</body>
+</html>
