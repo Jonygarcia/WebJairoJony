@@ -279,6 +279,7 @@ body
     background-color: var(--backgroundgray);
 }
 
+/* Row divs for images */
 .first-row
 {
     display: grid;
@@ -295,6 +296,8 @@ body
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px;
 }
+
+/* Images and hover */
 
 .container-card
 {
@@ -362,5 +365,13 @@ body
     width: 100%;
     max-width: 220px;
     margin: auto;
+}
+
+/* Banner for register */
+
+.banner-r
+{
+    height: 15 px;
+    width: 400 px;
 }
 
