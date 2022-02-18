@@ -283,8 +283,8 @@ body
 .first-row
 {
     display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 50px;
 }
 
@@ -292,8 +292,8 @@ body
 .second-row
 {
     display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 50px;
 }
 
@@ -318,13 +318,15 @@ body
     cursor: pointer;
 }
 
-.container-card figure img{
+.container-card figure img
+{
     height: 100%;
     width: 100%;
     transition: all 500ms ease-out;
 }
 
-.container-card figure .capa{
+.container-card figure .capa
+{
     position: absolute;
     top: 0;
     width: 100%;
@@ -371,7 +373,15 @@ body
 
 .banner-r
 {
-    height: 15 px;
-    width: 400 px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+    background-color: black;
+    max-height: 50px;
+    max-width: 1280px;
+    height: 100%;
+    width: 100%;
+
 }
 
