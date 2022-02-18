@@ -385,10 +385,52 @@ body
     margin: auto;
     margin-top: 1%;
     background-color: black;
-    max-height: 50px;
-    max-width: 1280px;
+    max-height: 30px;
+    max-width: 600px;
     height: 100%;
     width: 100%;
+    background: linear-gradient(270deg, #08ffff, #ffffff, #08ffff);
+    background-size: 400% 400%;
+    border-radius: 10px;
+    -webkit-animation: gradient 5s ease infinite;
+    -moz-animation: gradient 5s ease infinite;
+    animation: gradient 5s ease infinite;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
 }
+
+.banner-r p
+{
+    margin: auto;
+    text-align: center;
+}
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.title-images
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px;
+}
+
+.title-images h3{
+    text-align: center;
+}
+
 
 
