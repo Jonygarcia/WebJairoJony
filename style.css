@@ -8,8 +8,8 @@
 
 :root
 {
-    --maingray: #a1adaa;
-    --backgroundgray: #dfdfdf;
+    --maingray: #2c2c2c;
+    --backgroundgray: #4d4d4d;
     --white: #fff;
     --gray: #f5f5f5;
     --black1: #222;
@@ -214,6 +214,7 @@ body
     align-items: center;
     font-size: 2.5em;
     cursor: pointer;
+    color: var(--white);
 }
 
 .search
@@ -320,6 +321,8 @@ body
 
 .container-card figure img
 {
+    max-width: 300px;
+    max-height: 300px;
     height: 100%;
     width: 100%;
     transition: all 500ms ease-out;
@@ -329,6 +332,8 @@ body
 {
     position: absolute;
     top: 0;
+    max-width: 300px;
+    max-height: 300px;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
@@ -364,6 +369,8 @@ body
     color: white;
     font-size: 15px;
     line-height: 1.5;
+    max-width: 300px;
+    max-height: 300px;
     width: 100%;
     max-width: 220px;
     margin: auto;
@@ -382,6 +389,6 @@ body
     max-width: 1280px;
     height: 100%;
     width: 100%;
-
 }
+
 
