@@ -429,6 +429,12 @@ body
     text-align: center;
     color: var(--black1)
 }
+.title-images h3{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 300 !important;
+    text-align: center;
+    color: var(--black1)
+}
 
 
 .line {
