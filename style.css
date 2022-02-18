@@ -446,7 +446,7 @@ body
 }
 .gallery-body {
 	background-color: #262626;
-	height: 100vh;
+	height: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
