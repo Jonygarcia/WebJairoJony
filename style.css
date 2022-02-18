@@ -451,7 +451,7 @@ body
 .body-subscribe{
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 55vh;
     background: var(--backgroundgray);
     display: flex;
     justify-content: center;
