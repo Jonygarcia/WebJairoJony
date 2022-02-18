@@ -197,7 +197,6 @@ body
 
 .topbar
 {
-
     width: 100%;
     height: 60px;
     display: flex;
@@ -276,24 +275,13 @@ body
 }
 
 /* Web content */
-
-/* .webcontent
-{
-    position: absolute;
-    width: 100%;
-    min-height: 880px;
-    height: auto;
-    background-color: var(--backgroundgray);
-} */
-
-
 /* Row divs for images */
 .first-row
 {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 42px;
+    margin: 45px;
 }
 
 
@@ -302,7 +290,7 @@ body
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 42px;
+    margin: 45px;
 }
 
 /* Images and hover */
@@ -392,9 +380,9 @@ body
     margin: auto;
     margin-top: 1%;
     background-color: black;
-    max-height: 30px;
+    min-width: 500px;
     max-width: 600px;
-    height: 100%;
+    height: 35px;
     width: 100%;
     background: linear-gradient(270deg, #08ffff, #ffffff, #08ffff);
     background-size: 400% 400%;
@@ -410,6 +398,7 @@ body
 {
     margin: auto;
     text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 @-webkit-keyframes gradient {
@@ -431,7 +420,7 @@ body
 .title-images
 {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .title-images h1{
@@ -441,6 +430,15 @@ body
     color: var(--black1)
 }
 
+
+.line {
+    border-top: 1px solid;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    color: var(--black1);
+  }
 
 /* Gallery */
 
