@@ -305,14 +305,6 @@ body
     margin: 42px;
 }
 
-.third-row
-{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 42px;
-}
-
 /* Images and hover */
 
 .container-card
