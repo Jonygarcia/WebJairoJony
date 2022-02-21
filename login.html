@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destacados - BerserkeЯ</title>
+    <title>Login - BerserkeЯ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logo.ico">
 </head>
@@ -13,14 +13,13 @@
         <!-- NavMenu -->
         <div class="navigation">
             <nav><ul>
-                
                 <li>
                     <a href="index.html">
                         <span class="icon"><img src="img/logo.ico" class="logomini"></span>
                         <span class="title"><img src="img/letras-logo.ico" class="letraslogo"></span>
                     </a>
                 </li>
-                <li class="hovered">
+                <li>
                     <a href="index.html">
                         <span class="icon"><ion-icon name="star-outline"></ion-icon></span>
                         <span class="title">Destacados</span>
@@ -32,7 +31,7 @@
                         <span class="title">Suscripción</span>
                     </a>
                 </li>
-                <li>
+                <li class="hovered">
                     <a href="login.html">
                         <span class="icon"><ion-icon name="id-card-outline"></ion-icon></span>
                         <span class="title">Usuario</span>
@@ -62,11 +61,8 @@
                         <span class="title">Cerrar sesión</span>
                     </a>
                 </li>
-
-
             </ul></nav>
-        </div>
-        
+        </div>   
     </div>
 
     <!-- main -->
@@ -83,7 +79,7 @@
                 </label>
             </div>
             <!-- UserImg -->
-            <div class="user">
+            <div class="user">`
                 <a href="login.html">
                     <img src="img/user.png">
                 </a>
@@ -91,95 +87,29 @@
         </div>
         <!-- Web Content -->
         <div class="webcontent">
-            <!-- Banner register -->
-            <a class="link-banner" href="subscription.html">
-                <div class="banner-r">
-                    <p>Regístrate y hazte premium para conseguir descargas ilimitadas</p>
-                </div>
-            </a>
-            <!-- First row images -->
-            <div class="title-images">
-                <h1>IMÁGENES DESTACADAS</h1>
+            <div class="title-login">
+                <h1>INICIAR SESIÓN</h1>
             </div>
             <div class="line"></div>
-            <div class="first-row">
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_01.jpeg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
-                        </div> 
-                    </figure>
-                </div>
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_02.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
-                        </div> 
-                    </figure>
-                    
-                </div>
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_03.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
+            <div class="box-login">
+                <form class="form-login">
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <div class="parameters-login">
+                        <div class="remember-me">                        
+                            <label><input type="checkbox"> Recuérdame</label>
                         </div>
-                    </figure>
-                </div>
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_04.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
+                        <div class="forgot-pass">
+                            <a href="login.html">
+                                <p>Recordar contraseña</p>
+                            </a>
                         </div>
-                    </figure>
-                </div>
-            </div>
-            <!-- Second row images -->
-            <div class="second-row">    
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_05.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
-                        </div>
-                    </figure>
-                </div>
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_06.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
-               
-                        </div>
-                    </figure>
-                </div>
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_07.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
-                        </div>
-                    </figure>
-                </div>
-                <div class="container-card">
-                    <figure>
-                        <img src="img/image_08.jpg" class="img">
-                        <div class="capa">
-                            <h3>Autor</h3>
-                            <p>Título de la imagen</p>
-                        </div>
-                    </figure>
-                </div>
+                    </div>
+                    <button>Iniciar Sesión</button>
+                    <div class="line-login"></div>
+                    <button>Regístrate</button>
+                </form>
+                <a href="#"></a>
             </div>
         </div>
     </div>
