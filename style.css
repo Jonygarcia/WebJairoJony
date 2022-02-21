@@ -390,7 +390,7 @@ body
     max-width: 600px;
     height: 35px;
     width: 100%;
-    background: linear-gradient(270deg, #08ffff, #ffffff, #08ffff);
+    background: linear-gradient(270deg, #00eeb2, #ffffff, #00eeb2);
     background-size: 400% 400%;
     border-radius: 10px;
     -webkit-animation: gradient 5s ease infinite;
