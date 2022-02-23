@@ -596,6 +596,15 @@ body
     color: var(--black1)
 }
 
+.line {
+    border-top: 1px solid;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 60px auto;
+    color: var(--black1);
+}
+
 .box-login{
     text-align: center;
     justify-content: center;
