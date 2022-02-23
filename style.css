@@ -484,7 +484,7 @@ body
 
 .container-subscribe .card-subscribe .face.face1{
     position: relative;
-    background: #333;
+    background: var(--black1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -674,7 +674,6 @@ body
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
-    
     border: 0;
     padding: 10px 5px;
     margin-top: 15px;
@@ -762,31 +761,47 @@ body
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+    gap: 20px;
   }
   
   /* Style the submit button with a specific background color etc */
   .cont-submit {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: #00eeb2;
+    transition: background-color 300ms;
+    justify-content: center;
+    margin-left: 43%;
+  }
+
+  .contact-box label{
+      color: white;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   .cont-submit:hover {
-    background-color: #45a049;
+    background-color: #00a37a;
   }
   
   /* Add a background color and some padding around the form */
   .contact-box {
     border-radius: 15px;
-    background-color: #f2f2f2;
+    background-color: var(--black1);
     padding: 20px;
-    width: 600px;
-    margin: 150px auto;
+    max-width: 600px;
+    width: 100%;
+    margin: 60px auto;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
   }
 
 
