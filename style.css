@@ -867,9 +867,18 @@ body
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+}
+
+.flip-card-inner h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flip-card-inner p{
+    padding-left: 20px;
+    font-size: 1.1em;
+    text-align: left;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -884,6 +893,7 @@ body
     position: absolute;
     width: 100%;
     height: 100%;
+    text-align: center;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
@@ -892,7 +902,7 @@ body
 .flip-card-front 
 {
     background-color: var(--maingray);
-    color: black;
+    color: var(--backgroundgray);
     border-radius: 30px;
 }
 
