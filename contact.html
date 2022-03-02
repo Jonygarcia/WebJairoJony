@@ -58,7 +58,6 @@
             </ul></nav>
         </div>   
     </div>
-
     <!-- main -->
     <div class="main">
         <div class="topbar">
@@ -89,10 +88,8 @@
                 <form >
                     <label for="fname">Nombre</label>
                     <input class="cont-input" type="text" id="fname" name="firstname" placeholder="Nombre de usuario...">
-
                     <label for="email">Dirección de correo</label>
                     <input class="cont-input" type="text" id="email" name="mail" placeholder="Correo de contacto..." >
-
                     <label for="category">Categoría</label>
                     <select id="category" name = "categoria">
                         <option value="publicacion">Publicaciones</option>
@@ -100,21 +97,14 @@
                         <option value="general">General</option>
                         <option value="other">Otra</option>
                     </select>
-
                     <label for="texto">Texto</label>
                     <textarea id="texto" name="campo_texto" placeholder="Escribe tu mensaje aquí..."></textarea>
-
                     <input class="cont-submit" type="submit" value="Enviar">
-
                 </form>
             </div>
         </div>
-        
-            
-        
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
     <script>
         // MenuToggle
         let toggle = document.querySelector('.toggle');
@@ -124,9 +114,7 @@
         toggle.onclick = function(){
             navigation.classList.toggle('active')
             main.classList.toggle('active')
-        }
-        
-        
+        }  
         // add hovered class in selected list item
         let list = document.querySelectorAll('.navigation li');
         function activeLink(){
